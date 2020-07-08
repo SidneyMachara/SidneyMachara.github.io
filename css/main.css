@@ -1,0 +1,170 @@
+
+body, html {
+    height: 100%;
+    width: 100%;
+  }
+
+  .v_spacer_10 {
+    height: 10vh;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.sub_headin {
+    text-align: center;
+}
+
+  nav {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav ul li{
+      display: inline-block;
+      padding:  15px;
+      
+  }
+  nav ul li:hover {
+      background-color: #f0c433;
+  }
+
+  nav ul li a{
+      color: black;
+      font-weight: 900;
+      text-decoration: none;
+  }
+
+.primary_color {
+    color: #f0c433;
+}
+  
+.landing_section {
+    background-image: url("../images/min_copper.jpg");
+    height: 100%;
+    width:  100%;
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .landing_overlay {
+    height: 100vh;
+    width:  100vw;
+    background-color: rgba(0,0,0,0.5);
+ }
+
+ .landing_heading {
+     font-weight: 900;
+     font-size: 70px;
+     text-align: center;
+     text-decoration: underline;
+ }
+
+ .landing_sub_heading {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+ }
+
+ .call_to_action_btn {
+     padding: 15px 30px;
+     margin-top: 25px;
+     display: table;
+     margin-left: auto;
+     margin-right: auto;
+     border: 2px solid #f0c433;
+     color: black;
+     background-color: #f0c433;
+     font-weight: 800;
+ }
+
+ .call_to_action_btn:hover {
+     
+     color: black;
+     background-color: #f0c433;
+     cursor: pointer;
+ }
+
+ .section {
+     padding: 50px 50px;
+ }
+
+ .service_box {
+     width: 33%;
+     height: 50vh;
+     color: #000;
+     float: left;
+    
+ }
+
+ .service_box_spacer {
+     height: 100px;;
+ }
+
+ .service_box_heading {
+        text-align: center;
+        margin: 0;
+        
+        font-size: 27px;
+ }
+
+ .service_box_sub_heading {
+     margin: 0;
+   text-align: center;
+}
+
+ .service_box1 {
+    background-color: rgb(240, 196, 51);
+ }
+ .service_box2 {
+    background-image: url("../images/blue_engine.jpg");
+ }
+ .service_box3 {
+     background-color: rgb(243, 243, 243);
+ }
+ .service_box4 {
+    
+    background-image: url("../images/fresh_engin.jpg");
+ }
+ .service_box5 {
+     background-color: rgb(46, 46, 46);
+ }
+ .service_box6 {
+    background-image: url("../images/oil_pour.jpg");
+ }
+
+
+
+ footer {
+     margin-top: 400px;
+ }
+
+ .map_container {
+     height: 50vh;
+     width: 100vw;
+ }
+
+ .copyright_div {
+     clear: both;
+     /* width: 100%; */
+     background-color: rgb(46, 46, 46);
+     padding: 20px 50px;
+     color: white;
+ }
+
+ 
+
+ @media only screen and (max-width: 600px) {
+    .service_box {
+        width: 100%;
+       
+    }
+  }
