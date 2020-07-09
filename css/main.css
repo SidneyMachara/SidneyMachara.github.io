@@ -2,6 +2,8 @@
 body, html {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .v_spacer_10 {
@@ -20,19 +22,23 @@ h2 {
 }
 
   nav {
-    background-color: white;
-    width: 80%;
+    background-color: #f0c433;
+    width: 30%;
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
+  }
+
+  nav ul {
+    margin-top: 0;
   }
 
   nav ul li{
       display: inline-block;
       padding:  15px;
-      
+
   }
   nav ul li:hover {
-      background-color: #f0c433;
+      background-color: white;
   }
 
   nav ul li a{
@@ -44,12 +50,12 @@ h2 {
 .primary_color {
     color: #f0c433;
 }
-  
+
 .landing_section {
     background-image: url("../images/min_copper.jpg");
     height: 100%;
     width:  100%;
- 
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +93,7 @@ h2 {
  }
 
  .call_to_action_btn:hover {
-     
+
      color: black;
      background-color: #f0c433;
      cursor: pointer;
@@ -102,7 +108,7 @@ h2 {
      height: 50vh;
      color: #000;
      float: left;
-    
+
  }
 
  .service_box_spacer {
@@ -112,7 +118,7 @@ h2 {
  .service_box_heading {
         text-align: center;
         margin: 0;
-        
+
         font-size: 27px;
  }
 
@@ -131,7 +137,7 @@ h2 {
      background-color: rgb(243, 243, 243);
  }
  .service_box4 {
-    
+
     background-image: url("../images/fresh_engin.jpg");
  }
  .service_box5 {
@@ -160,11 +166,11 @@ h2 {
      color: white;
  }
 
- 
+
 
  @media only screen and (max-width: 600px) {
     .service_box {
         width: 100%;
-       
+
     }
   }
