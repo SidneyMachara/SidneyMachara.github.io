@@ -1,9 +1,12 @@
-
+*{
+    box-sizing: border-box;
+    }
 body, html {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+   display: b;
   }
 
   .v_spacer_10 {
@@ -66,7 +69,10 @@ h2 {
     height: 100vh;
     width:  100vw;
     background-color: rgba(0,0,0,0.5);
+    padding: 20px;
  }
+
+
 
  .landing_heading {
      font-weight: 900;
@@ -182,9 +188,9 @@ h2 {
 
  .copyright_div {
      clear: both;
-     /* width: 100%; */
+     width: 100%;
      background-color: rgb(46, 46, 46);
-     padding: 20px 50px;
+     padding: 20px 0;
      color: white;
  }
 
@@ -205,6 +211,7 @@ h2 {
 
 
 
+
  @media only screen and (max-width: 600px) {
     .service_box {
         width: 100%;
@@ -214,5 +221,15 @@ h2 {
     .footer_address {
         margin-left: 0;
         width: 100%;
+        padding-right: 0px;
+        height: 95%; 
+    }
+
+    #appointment_car {
+        width: 100%;
+    }
+
+    .v_spacer_10 {
+        height: 5vh;
     }
   }
